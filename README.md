@@ -1,5 +1,8 @@
 # 🦺 안전 신문고 - Android 🦺
 > 합동세미나 모바일 앱 8팀 안전신문고
+<p>
+
+<br>
 
 ## 👷 Contributors
 | <img src="https://avatars.githubusercontent.com/u/101652649?v=4" width = "200"/> | <img src="https://avatars.githubusercontent.com/u/89915076?v=4" width = "200" /> | <img src="https://avatars.githubusercontent.com/u/63749140?v=4" width = "200"/> | <img src="https://avatars.githubusercontent.com/u/182846193?v=4" width = "200"/> | 
@@ -7,68 +10,57 @@
 |                      [이석준](https://github.com/boiledEgg-s)                      |                        [김채린](https://github.com/chrin05)                        |                       [이황근](https://github.com/yihwanggeun)                        |                       [장재원](https://github.com/jangsjw)                        |
 | `담당 기능` | `담당 기능` | `담당 기능` | `담당 기능` |
 
-## 💻 Git Convention
+<br>
 
-1. **이슈/커밋 유형**
-  ```
-  [FEAT] : 새로운 기능 구현
-  [MOD] : 코드 수정 및 내부 파일 수정
-  [ADD] : 부수적인 코드 추가 및 라이브러리 추가, 새로운 파일 생성
-  [CHORE] : 버전 코드 수정, 패키지 구조 변경, 타입 및 변수명 변경 등의 작은 작업
-  [DEL] : 쓸모없는 코드나 파일 삭제
-  [UI] : UI 작업
-  [FIX] : 버그 및 오류 해결
-  [HOTFIX] : issue나 QA에서 문의된 급한 버그 및 오류 해결
-  [MERGE] : 다른 브랜치와의 MERGE
-  [MOVE] : 프로젝트 내 파일이나 코드의 이동
-  [RENAME] : 파일 이름 변경
-  [REFACTOR] : 전면 수정
-  [DOCS] : README나 WIKI 등의 문서 개정
-  ```
-2. **이슈 컨벤션**
-  ```
-  [유형] 작업 내용
-  ```
-3. **브랜치 컨벤션**
-  ```
-  유형/#이슈번호-작업내용
-  ```
-4. **PR 컨벤션**
-  ```
-  [유형/#이슈번호] 작업내용
-  ```
-5. **이슈 및 PR 템플릿**: [노션 페이지에서 확인]()
-
-## 📦 Package Convention
+## 🧑‍🤝‍🧑 협업 방식
 ```
-📦com.sopt.shinmungo
-├─📂app
-|  ├─📂di
-├─📂core
-│  ├─📂designsystem
-│  │  └─📂component
-│  ├─📂util
-├─📂data
-|  ├─📂data class
-│  ├─📂dto
-│  │  └─📂response
-│  │  └─📂request
-│  ├─📂service
-├─📂domain
-│  ├─📂repository
-│  ├─📂entity
-├─📂feature
-```
+소통의 경우,
+  ✔️ 카카오톡 확인 후에 파란 체크! (답장보다 체크로 하면 공지나 이런게 안 묻히니까)
+  ✔️ 카카오톡 알림 (2주동안만 고정시켜놔)
+  ✔️ 다른 사람의 뷰를 수정할 일이 있으면, 무조건 얘기하기
+  ✔️ 변동사항이 생기면 팀원들이랑 공유 및 상의하기
+  ✔️ 모르는거 적극적으로 물어보고, 적극적으로 답해주기
 
-## 🖥️ Coding Convention
-- **변수** : 명사, 카멜 케이스
-- **함수** : 동사, 카멜 케이스
-- **Composable 함수** : 의도+컴포넌트명 (ex. CircularIconButton)
-- **리소스 파일** : 스네이크 케이스
-  - 문자열: `[where]_[what]`
-  - 아이콘: `ic_[where]_[what]_[size].xml`
+협업의 경우,
+  ✔️ commit 최대한 쪼개서 올리기
+  ✔️ 어느 수준으로 개발이 됐을 때 PR 올리기
+  ✔️ PR 올라오면 최대한 빨리 리뷰해주기
+  ✔️ 한명 이상의 팀원의 승인이 있어야만 머지 가능
+  ✔️ 모르는거 적극적으로 물어보고, 적극적으로 답해주기
+```
+  
+## 💻 깃 컨벤션
+
+**이슈/커밋 유형** : [issue/commit type](https://www.notion.so/Github-Convention-13e831ec896b80209f0cc07823db84e3?pvs=4#13e831ec896b806b9e35cc6dd82bbafa)
+  
+**이슈 컨벤션** : [issue convention](https://www.notion.so/Github-Convention-13e831ec896b80209f0cc07823db84e3?pvs=4#13e831ec896b800b9223dee66ebd1d4c)
+  
+**브랜치 컨벤션** : [branch convention](https://www.notion.so/Github-Convention-13e831ec896b80209f0cc07823db84e3?pvs=4#13e831ec896b80019fe2c7263ac3cf84)
+  
+**PR 컨벤션** : [pr convention](https://www.notion.so/Github-Convention-13e831ec896b80209f0cc07823db84e3?pvs=4#13e831ec896b8077b111cd5d5696c8c4)
+  
+**이슈 및 PR 템플릿**: [issue, pr templates](https://respected-buckaroo-144.notion.site/Github-Templates-13e831ec896b801c82bdc7d2a9dc455a?pvs=4)
+
+<br>
+
+## 📦 패키지 컨벤션
+[packaging convention](https://www.notion.so/Packaging-Convention-13e831ec896b80339715d307a675395c)
+
+<br>
+
+## 🖥️ 코딩 컨벤션
+[coding Convention](https://www.notion.so/Naming-Convention-13e831ec896b8017bbfecccfabf37bcc?pvs=4)
  
-## Tech Stack
+<br>
+
+
+## ⏭️ 작업 트래킹
+
+[task tracking](https://www.notion.so/13e831ec896b80aaafe7e978b7dd4158?pvs=4)
+
+<br>
+
+## 🛠️ 기술 스택
 | Title | Content |
 | ------------ | -------------------------- |
 | Architecture | MVVM |
@@ -79,3 +71,5 @@
 | Asynchronous Processing | Coroutine, Flow |
 | Third Party Library |   |
 | Other Tools |   |\
+
+</p>
